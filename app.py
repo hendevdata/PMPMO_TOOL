@@ -3,7 +3,7 @@ import pandas as pd
 import openai
 
 # Set up OpenAI API key
-api_key = "sk-service-account-paid-projects-ULyouPj7eBIhksUChkwET3BlbkFJgvNPCD8mBKpkm9hpK9My"
+api_key = "your api key"
 openai.api_key = api_key
 
 def read_all_sheets_from_excel(file):
